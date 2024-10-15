@@ -9,6 +9,7 @@ import Contact from './components/client_contact/client_contact'; // Correct com
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import Loader from './components/Loader/Loader'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -34,6 +35,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<>
+          <Analytics/>
             <Home />
             <Resume />
             <Projects />
