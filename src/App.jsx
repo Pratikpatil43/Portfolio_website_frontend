@@ -22,10 +22,11 @@ const App = () => {
 
     return () => clearTimeout(timer);
   }, []);
-
+ 
  
    
   return (
+
    
     <Router>
       <div>
@@ -46,6 +47,8 @@ const App = () => {
             <Contact />
           </>} />
         </Routes>
+     <Analytics />
+
       </div>
     </Router>
   );
