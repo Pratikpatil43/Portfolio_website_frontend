@@ -10,7 +10,7 @@ const Home = () => {
     <div className='image-text'>
     <h1 className='element1'>Hi There,</h1> <h1 className='element2'>Iam Pratik Patil</h1>
     <h1 className='element3'>Iam a Web Developer</h1>
-    <button className='home-button'><a href="/contact">Need Website</a></button>
+    <button className='home-button'><a href="https://contactwithpratik.vercel.app/">Need Website</a></button>
     <img className='helloimg' src={hellologo} alt="hellologo" /> 
 
 
